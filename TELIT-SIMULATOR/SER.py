@@ -29,7 +29,7 @@ import sys
 import threading
 
 def send(string):
-	print string
+	sys.stdout.write(string)
 def sendbyte(byte):
 	
 	print "[SER] sent:" + hex(byte)
